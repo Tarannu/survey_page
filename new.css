@@ -1,6 +1,15 @@
 h1{
-    text-align: center;
+    padding-top: 5%;
+    
 }
-.survey-form{
-    text-align: center;
+p{
+    padding-left: 5%;
+}
+body{
+    
+    padding-left: 30%;
+    padding-right: 32%;
+}
+form{
+    background-color: blueviolet;
 }
