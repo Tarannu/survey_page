@@ -1,0 +1,55 @@
+
+<html>
+    
+<head>
+
+</head>
+<body>
+    
+    <h1 id="title"> A survey form for best makeup products</h1>
+    <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+    </script>
+    <p id="description"> This will decide what category of makeup does majority of people like</p>
+    <form id="survey-form" id="name-label" id="email-label" id="number-label">
+        <label id="name-label">Name:</label>
+        <input id="name" type="text"  required placeholder="First Name and Last Name"><br>
+        <label id="email-label">Email:</label>
+        <input id="email" type="email"  required placeholder="userid@mail.com"><br>
+        <label id="number-label">Number:</label>
+        <input id="number" type="number" min="0" max="20" placeholder="Enter number upto 20" ><br>
+        
+        <label for="Makeup">Choose a Makeup Brand:</label>
+
+        <select name="cosmetics" id="dropdown">
+        <option value="Maybelline">Maybelline</option>
+        <option value="Mac">Mac</option>
+        <option value="Nudestic">Nudestix</option>
+        <option value="Colourpop">Colourpop</option>
+        </select>
+        <br>
+
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+        <br>
+        <input type="checkbox" id="heavy makeup" name="type1" value="Heavy Glam">
+        <label for="vehicle1"> I like Heavy Glam</label><br>
+        <input type="checkbox" id="light makeup" name="type2" value="Light Glam">
+        <label for="vehicle2"> I likeLight Glam</label><br>
+        <input type="checkbox" id="no makeup" name="type2" value="No Makeup">
+        <label for="vehicle3"> I like No Makeup</label>
+        <br>
+        <label for="Text">Additional Comments about your choices</label>
+
+        <textarea id="other" name="other" rows="4" cols="50">Makeup is way to boost my confidence or why it helped you?
+        </textarea>
+        <br>
+        
+        <input id="submit" type="submit">
+    </form>
+</body>
+
+</html>
